@@ -3,13 +3,13 @@ import { motion } from 'framer-motion';
 import './Hero.css';
 
 const Hero = () => {
-  const words = "Ishika.dev".split("");
+  const words = "Ishika Jariwala".split("");
   
   const container = {
     hidden: { opacity: 0 },
     visible: (i = 1) => ({
       opacity: 1,
-      transition: { staggerChildren: 0.12, delayChildren: 0.04 * i },
+      transition: { staggerChildren: 0.08, delayChildren: 0.04 * i },
     }),
   };
 
@@ -68,17 +68,17 @@ const Hero = () => {
             <motion.span
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 1.5, duration: 0.8 }}
+              transition={{ delay: 1.2, duration: 0.8 }}
               style={{ fontSize: "0.5em", display: "block", marginTop: "10px", color: "var(--text-primary)" }}
             >
-              Software Engineer
+              Jr. Software Engineer
             </motion.span>
           </motion.h1>
 
           <motion.p 
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 2.0 }}
+            transition={{ duration: 0.6, delay: 1.8 }}
             className="description"
           >
             Specializing in .NET, Angular, and React. I architect robust solutions and craft immersive digital experiences with modern tech stacks.
@@ -87,7 +87,7 @@ const Hero = () => {
           <motion.div 
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 2.2 }}
+            transition={{ duration: 0.6, delay: 2.0 }}
             className="cta-group"
           >
             <motion.a 

@@ -63,8 +63,8 @@ const Header = () => {
         {/* Social Links & Mobile Menu Button */}
         <div className="header-actions">
           <div className="social-links desktop-only">
-            <motion.a whileHover={{ y: -3, color: 'var(--accent-purple)' }} href="https://github.com/ishika" target="_blank" rel="noreferrer">GitHub</motion.a>
-            <motion.a whileHover={{ y: -3, color: 'var(--accent-blue)' }} href="https://linkedin.com/in/ishika" target="_blank" rel="noreferrer">LinkedIn</motion.a>
+            <motion.a whileHover={{ y: -3, color: 'var(--accent-purple)' }} href="https://github.com/Ishika2626" target="_blank" rel="noreferrer">GitHub</motion.a>
+            <motion.a whileHover={{ y: -3, color: 'var(--accent-blue)' }} href="https://www.linkedin.com/in/ishika-jariwala-2b2557236?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noreferrer">LinkedIn</motion.a>
           </div>
 
           <button className="mobile-menu-btn" onClick={() => setIsOpen(!isOpen)}>

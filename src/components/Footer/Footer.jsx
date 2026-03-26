@@ -18,16 +18,16 @@ const Footer = () => {
         gap: '1rem'
       }}>
         <div className="social-links" style={{ display: 'flex', gap: '1.5rem' }}>
-          <a href="https://github.com/ishika" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)' }}>
+          <a href="https://github.com/Ishika2626" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)' }}>
             GitHub
           </a>
-          <a href="https://linkedin.com/in/ishika" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)' }}>
+          <a href="https://www.linkedin.com/in/ishika-jariwala-2b2557236?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noreferrer" style={{ color: 'var(--text-secondary)' }}>
             LinkedIn
           </a>
         </div>
 
         <p style={{ textAlign: 'center', color: 'var(--text-secondary)', fontSize: '0.9rem', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-          © {currentYear} Ishika. Built with <span style={{color: '#ef4444'}}>❤</span> using React.
+          © {currentYear} Ishika Jariwala. Built with <span style={{color: '#ef4444'}}>❤</span>.
         </p>
       </div>
     </footer>
